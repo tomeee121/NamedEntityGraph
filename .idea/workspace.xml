@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad935bf7-ea05-4939-b4fd-0e82c8354eb4" name="Changes" comment="init" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2652b30b962641fcfe81d483c71bad30c0a72615" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Jdn2xCBcPNkgXS4xPcrZO2pjOT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Tomek/Downloads/Spring-Zapytania-3normalna",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projekty_Java\praca mgr\Spring-Zapytania-3normalna" />
+      <recent name="D:\Projekty_Java\praca mgr\Spring-Zapytania-3normalna\src\main\resources" />
+      <recent name="D:\Projekty_Java\praca mgr\Spring-Zapytania-3normalna\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekty_Java\praca mgr\Spring-Zapytania-3normalna\src\main\resources\db" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="zapytania" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad935bf7-ea05-4939-b4fd-0e82c8354eb4" name="Changes" comment="" />
+      <created>1672416625639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672416625639</updated>
+    </task>
+    <task id="LOCAL-00001" summary="all mapped, whole insert to 3NF done">
+      <created>1672491536603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672491536603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="all attribute fields added">
+      <created>1672496009416</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672496009416</updated>
+    </task>
+    <task id="LOCAL-00003" summary="insert with all attributes except for Year">
+      <created>1672499535928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672499535928</updated>
+    </task>
+    <task id="LOCAL-00004" summary="custom Year conversion Hibernate&lt;-&gt;DB">
+      <created>1672503500612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672503500613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="static consts for time to show at the end">
+      <created>1672766226997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672766226997</updated>
+    </task>
+    <task id="LOCAL-00006" summary="indexed query on klient/(miasto)">
+      <created>1672779824390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672779824390</updated>
+    </task>
+    <task id="LOCAL-00007" summary="indeksy,lazy/eager na klient(miasto), kazdy klient ma 5 paczek">
+      <created>1672826131709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672826131709</updated>
+    </task>
+    <task id="LOCAL-00008" summary="korekta-5 paczek do kurier jednego">
+      <created>1672851012873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672851012873</updated>
+    </task>
+    <task id="LOCAL-00009" summary="all dziala">
+      <created>1673179588468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673179588468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="all dziala">
+      <created>1673188282825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673188282825</updated>
+    </task>
+    <task id="LOCAL-00011" summary="wiecej mapowan,wszystkie zapytania">
+      <created>1673438443825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673438443825</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all mapped, whole insert to 3NF done" />
+    <MESSAGE value="all attribute fields added" />
+    <MESSAGE value="insert with all attributes except for Year" />
+    <MESSAGE value="custom Year conversion Hibernate&lt;-&gt;DB" />
+    <MESSAGE value="static consts for time to show at the end" />
+    <MESSAGE value="indexed query on klient/(miasto)" />
+    <MESSAGE value="indeksy,lazy/eager na klient(miasto), kazdy klient ma 5 paczek" />
+    <MESSAGE value="korekta-5 paczek do kurier jednego" />
+    <MESSAGE value="korekta-mapowanie i dodanie deletow" />
+    <MESSAGE value="all dziala" />
+    <MESSAGE value="wiecej mapowan,wszystkie zapytania" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spring_Zapytania_3normalna$App.ic" NAME="App Coverage Results" MODIFIED="1673789170055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.model.*</FILTER>
+    </SUITE>
+  </component>
+</project>
