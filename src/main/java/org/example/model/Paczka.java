@@ -28,9 +28,9 @@ public class Paczka {
     private LocalDateTime czasDostarczenia;
     private String opis;
     private Boolean czyDostarczono;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "kurier_id")
     private Kurier kurier;
-    @OneToOne(mappedBy = "paczkaPrzesyłki", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "paczkaPrzesyłki", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private KosztWysyłki wysyłkiKoszt;
 }

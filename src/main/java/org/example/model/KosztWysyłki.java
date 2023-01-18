@@ -18,7 +18,7 @@ public class KosztWysyłki {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private BigDecimal koszt;
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "paczka_id")
     @OnDelete(action = OnDeleteAction.CASCADE)
     private Paczka paczkaPrzesyłki;

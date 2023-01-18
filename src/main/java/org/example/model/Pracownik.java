@@ -27,13 +27,13 @@ public class Pracownik {
     private String kodPocztowy;
     private String ulicaNazwa;
     private String nrDomu;
-    @OneToMany(mappedBy = "pracownik",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "pracownik",cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 //    @JoinColumn(name = "pracownik_id")
     private List<Wypłata> pensje = new ArrayList<>();
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "kurier_id")
     private Kurier kurier;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "dział_id")
     private OddziałFirmy oddziałFirmy;
 }

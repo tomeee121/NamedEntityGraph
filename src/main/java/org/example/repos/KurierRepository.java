@@ -9,8 +9,7 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 public interface KurierRepository extends JpaRepository<Kurier, Long> {
-
-    @EntityGraph(value = "kurier-rows", type = EntityGraph.EntityGraphType.LOAD)
+    @EntityGraph(value = "kurier-rows", type = EntityGraph.EntityGraphType.FETCH)
     @Query(value = "select k from Kurier k")
     List<Kurier> findAllKurierLazy();
 

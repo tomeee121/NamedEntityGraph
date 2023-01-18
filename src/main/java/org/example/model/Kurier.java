@@ -10,9 +10,18 @@ import java.util.List;
 @NamedEntityGraph(
         name = "kurier-rows",
         attributeNodes = {
-                @NamedAttributeNode("pracownik"),
-                @NamedAttributeNode("paczki")
-        }
+                @NamedAttributeNode("paczki"),
+                @NamedAttributeNode(value = "pracownik", subgraph = "oddział-firmy")
+                },
+                subgraphs = {
+        @NamedSubgraph(
+                name = "oddział-firmy",
+                attributeNodes =
+                        {
+                                @NamedAttributeNode("oddziałFirmy")
+                        }
+        )
+}
 )
 @NoArgsConstructor
 @Getter
