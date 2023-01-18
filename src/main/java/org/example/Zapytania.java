@@ -32,8 +32,8 @@ public class Zapytania {
         Faker faker = new Faker(new Locale("pl"));
         for (int i = 0; i < 4; i++) {
 
-            Kurier kurier = Kurier.builder().dostarczenia(faker.number().numberBetween(200, 5000))
-                    .spoznienia((short) faker.number().numberBetween(0, 1000)).pseudo(faker.name().username())
+            Kurier kurier = Kurier.builder().dostarczenia(faker.number().numberBetween(300, 6000))
+                    .spoznienia((short) faker.number().numberBetween(1, 700)).pseudo(faker.name().username())
                     .build();
 
             List<Paczka> paczki = new ArrayList<>();
@@ -52,11 +52,11 @@ public class Zapytania {
 
             Pracownik pracownik = Pracownik.builder().imie(faker.name().firstName()).nazwisko(faker.name().lastName())
                     .rola(faker.company().profession()).dataPrzyjecia(new Date(faker.number().numberBetween(1, 1672494425)))
-                    .dataZwolnienia(new Date(faker.number().numberBetween(1, 1672494425)))
+                    .dataZwolnienia(new Date(faker.number().numberBetween(10, 1672494425)))
                     .miasto(faker.address().city()).kodPocztowy(faker.address().zipCode()).ulicaNazwa(faker.address().streetName())
                     .nrDomu(faker.address().buildingNumber()).stanowisko(faker.job().position()).build();
-            Wypłata wypłata = Wypłata.builder().pensjaOd(new Date(faker.number().numberBetween(1, 1672494425)))
-                    .pensjaDo(new Date(faker.number().numberBetween(10000000, 1672494425))).pracownik(pracownik).build();
+            Wypłata wypłata = Wypłata.builder().pensjaOd(new Date(faker.number().numberBetween(6, 1672494410)))
+                    .pensjaDo(new Date(faker.number().numberBetween(10000900, 167249200))).pracownik(pracownik).build();
             pracownik.setPensje(List.of(wypłata));
             pracownik.setKurier(kurier);
             pracownik.setPensje(List.of(wypłata));
